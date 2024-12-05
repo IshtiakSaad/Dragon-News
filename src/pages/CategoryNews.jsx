@@ -5,8 +5,8 @@ const CategoryNews = () => {
   const data = useLoaderData();
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-6">
-      <h1 className="text-3xl font-semibold text-center text-blue-600 mb-8">
+    <div className="max-w-4xl mx-auto px-4">
+      <h1 className="text-xl font-bold text-center bg-red-600 text-white py-2 rounded-sm mb-8">
         Category News
       </h1>
       {data.data.map((newsItem) => (
